@@ -62,6 +62,7 @@ Image Segmentation:
 1) For Image Segmentation also I used Roboflow for data annotation but did every thing manually as there is no predefined model.
 2) So for this I selected a random of 40 images and did annotation for these.
 3) Then used these annotated images(approx 100 after augmentation) for further training the base yolov11 segmentation model.
+4) After training, I used the final segmentation model to segment the remaining images
 
 For training:
 ```python
