@@ -1,0 +1,46 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object-detection-segmentation.egg-link (link to .)
+running egg_info
+writing build/object_detection_segmentation/object_detection_segmentation.egg-info/PKG-INFO
+writing dependency_links to build/object_detection_segmentation/object_detection_segmentation.egg-info/dependency_links.txt
+writing entry points to build/object_detection_segmentation/object_detection_segmentation.egg-info/entry_points.txt
+writing requirements to build/object_detection_segmentation/object_detection_segmentation.egg-info/requires.txt
+writing top-level names to build/object_detection_segmentation/object_detection_segmentation.egg-info/top_level.txt
+reading manifest file 'build/object_detection_segmentation/object_detection_segmentation.egg-info/SOURCES.txt'
+writing manifest file 'build/object_detection_segmentation/object_detection_segmentation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying object_detection_segmentation/image_processor.py -> /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation
+creating /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/segment
+copying object_detection_segmentation/segment/segmentor.py -> /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/segment
+copying object_detection_segmentation/segment/__init__.py -> /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/segment
+creating /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/detection
+copying object_detection_segmentation/detection/detector.py -> /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/detection
+copying object_detection_segmentation/detection/__init__.py -> /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/detection
+running install
+running install_lib
+creating /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation
+creating /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/segment
+copying /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/segment/segmentor.py -> /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/segment
+copying /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/segment/__init__.py -> /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/segment
+creating /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/detection
+copying /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/detection/detector.py -> /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/detection
+copying /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/detection/__init__.py -> /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/detection
+copying /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/image_processor.py -> /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation
+copying /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/__init__.py -> /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation
+byte-compiling /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/segment/segmentor.py to segmentor.cpython-310.pyc
+byte-compiling /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/segment/__init__.py to __init__.cpython-310.pyc
+byte-compiling /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/detection/detector.py to detector.cpython-310.pyc
+byte-compiling /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/image_processor.py to image_processor.cpython-310.pyc
+byte-compiling /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/object_detection_segmentation -> /app/object_detection_segmentation/install/object_detection_segmentation/share/ament_index/resource_index/packages
+copying package.xml -> /app/object_detection_segmentation/install/object_detection_segmentation/share/object_detection_segmentation
+running install_egg_info
+Copying build/object_detection_segmentation/object_detection_segmentation.egg-info to /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_processor_node script to /app/object_detection_segmentation/install/object_detection_segmentation/lib/object_detection_segmentation
+writing list of installed files to '/app/object_detection_segmentation/build/object_detection_segmentation/install.log'

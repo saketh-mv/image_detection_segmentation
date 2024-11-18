@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing object_detection_segmentation.egg-info/PKG-INFO
+writing dependency_links to object_detection_segmentation.egg-info/dependency_links.txt
+writing entry points to object_detection_segmentation.egg-info/entry_points.txt
+writing requirements to object_detection_segmentation.egg-info/requires.txt
+writing top-level names to object_detection_segmentation.egg-info/top_level.txt
+reading manifest file 'object_detection_segmentation.egg-info/SOURCES.txt'
+writing manifest file 'object_detection_segmentation.egg-info/SOURCES.txt'
+running build_ext
+Creating /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object-detection-segmentation.egg-link (link to .)
+Installing image_processor_node script to /app/object_detection_segmentation/install/object_detection_segmentation/lib/object_detection_segmentation
+
+Installed /app/object_detection_segmentation/build/object_detection_segmentation
+running symlink_data
+symbolically linking /app/object_detection_segmentation/build/object_detection_segmentation/resource/object_detection_segmentation -> /app/object_detection_segmentation/install/object_detection_segmentation/share/ament_index/resource_index/packages
+symbolically linking /app/object_detection_segmentation/build/object_detection_segmentation/package.xml -> /app/object_detection_segmentation/install/object_detection_segmentation/share/object_detection_segmentation

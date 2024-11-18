@@ -1,0 +1,24 @@
+[0.660s] Invoking command in '/app/object_detection_segmentation': PYTHONPATH=/app/object_detection_segmentation/build/object_detection_segmentation/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/object_detection_segmentation build --build-base /app/object_detection_segmentation/build/object_detection_segmentation/build install --record /app/object_detection_segmentation/build/object_detection_segmentation/install.log --single-version-externally-managed install_data
+[0.916s] running egg_info
+[0.916s] writing build/object_detection_segmentation/object_detection_segmentation.egg-info/PKG-INFO
+[0.917s] writing dependency_links to build/object_detection_segmentation/object_detection_segmentation.egg-info/dependency_links.txt
+[0.917s] writing entry points to build/object_detection_segmentation/object_detection_segmentation.egg-info/entry_points.txt
+[0.917s] writing requirements to build/object_detection_segmentation/object_detection_segmentation.egg-info/requires.txt
+[0.917s] writing top-level names to build/object_detection_segmentation/object_detection_segmentation.egg-info/top_level.txt
+[0.919s] reading manifest file 'build/object_detection_segmentation/object_detection_segmentation.egg-info/SOURCES.txt'
+[0.921s] writing manifest file 'build/object_detection_segmentation/object_detection_segmentation.egg-info/SOURCES.txt'
+[0.921s] running build
+[0.921s] running build_py
+[0.921s] copying object_detection_segmentation/detection/detector.py -> /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/detection
+[0.922s] running install
+[0.922s] running install_lib
+[0.923s] copying /app/object_detection_segmentation/build/object_detection_segmentation/build/lib/object_detection_segmentation/detection/detector.py -> /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/detection
+[0.924s] byte-compiling /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation/detection/detector.py to detector.cpython-310.pyc
+[0.925s] running install_data
+[0.925s] running install_egg_info
+[0.927s] removing '/app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation-0.0.0-py3.10.egg-info' (and everything under it)
+[0.928s] Copying build/object_detection_segmentation/object_detection_segmentation.egg-info to /app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages/object_detection_segmentation-0.0.0-py3.10.egg-info
+[0.929s] running install_scripts
+[0.954s] Installing image_processor_node script to /app/object_detection_segmentation/install/object_detection_segmentation/lib/object_detection_segmentation
+[0.955s] writing list of installed files to '/app/object_detection_segmentation/build/object_detection_segmentation/install.log'
+[0.980s] Invoked command in '/app/object_detection_segmentation' returned '0': PYTHONPATH=/app/object_detection_segmentation/build/object_detection_segmentation/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/object_detection_segmentation/install/object_detection_segmentation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/object_detection_segmentation build --build-base /app/object_detection_segmentation/build/object_detection_segmentation/build install --record /app/object_detection_segmentation/build/object_detection_segmentation/install.log --single-version-externally-managed install_data
