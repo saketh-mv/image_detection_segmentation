@@ -75,6 +75,7 @@ Download the model weights from [here](https://drive.google.com/drive/folders/19
 After downloading keep under object_detection_segmentation/segment and object_detection_segemntation/detection
 
 pallet segmentation.v1i.yolov11.zip - dataset used for training image segmentation model
+
 pallet finder.v1i.yolov11.zip - dataset used for training object detection model
 
 
