@@ -1,7 +1,7 @@
 Setup:
 
 1) Create a conda environment and install ultralytics for detection and segmentation
-2) Check for the torch version and install accordingly
+2) Check for the torch version and install accordingly.
 3) Docker Support:
     
     Use the given docker image if needed support from docker
@@ -39,6 +39,11 @@ Setup:
     # Set the default command
     CMD ["/bin/bash"]
     
+    ```
+
+    ```python
+        docker build -t detection_segmentation .
+        docker run --gpus all -it --rm -v <path to dataset>:/app detection_segmentation
     ```
 
 5)  Connect to ROS2 and pass images to the module
