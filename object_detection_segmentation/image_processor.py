@@ -13,7 +13,7 @@ class ImageProcessor(Node):
         super().__init__('image_processor')
         self.image_subscription = self.create_subscription(
             Image,
-            '/camera/color/image_raw',
+            '/robot1/zed2i/left/image_rect_color',
             self.image_callback,
             10)
         self.bridge = CvBridge()
